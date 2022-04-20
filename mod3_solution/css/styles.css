@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#logo-img {
+	font-size: 2em;
+	margin: 15px 0;
+}
+#logo-img .visible-xs {
+	font-size: 1.2em;
+}
+#main-content.container {
+	width: 100%;
+}
+.container a:link, .container a:active {
+	text-decoration: none;
+	color: #000;
+}
+.container a:hover {
+	text-decoration: none;
+	color: #545454;
+}
+.navbar-collapse {
+	background: #fffdf7;
+	clear: both;
+}
+.navbar .container {
+	float: left;
+}
+.nav>li {
+	text-align: center;
+	font-size: 1.2em;
+}
+.navbar-default .nav>li>a:hover {
+	color: #ff0000;
+}
+h1 {
+	text-align: center;
+	padding: 25px;
+}
+hr {
+	margin: 0px;
+}
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+
+/* Page content */
+
+.columns {position: relative;
+
+	border: 1px solid #e7e7e7;
+	float: left;
+	background-color: #f8f8f8;
+}
+
+.title_region {
+	float: right;
+	position: relative;
+	clear: both;
+	text-align: center;
+	border-bottom: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	font-size: 1.3em;
+	color: #fff;
+}
+.first {
+	background-color: #bf3d7c;
+}
+.second {
+	background-color: #c14543;
+	color: #fff;
+}
+.third {
+	background-color: #d6b04b;
+}
+p {
+	clear: both;
+	padding: 10px;
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+	.first_col{
+		width: 47%;
+		margin: 2% 1% 0 2%;}
+	.second_col{
+		width: 47%;
+		margin: 2% 2% 0 1%;}
+	.third_col {
+		width: 96%;
+		margin: 2%}
+	.title_region {
+		width: 200px;
+	}
+	h1 {
+		font-size: 2.1em;
+	}
+}
+@media (min-width: 992px) {
+	.first_col {
+		width: 30.6%;
+		margin: 2% 0 2% 2%;}
+	.second_col {
+		width: 30.6%;
+		margin: 2% 2% 2% 2%;}		
+	.third_col {
+		width: 30.6%;
+		margin: 2% 2% 2% 0%;}
+	.title_region {
+		width: 200px;
+	}
+	h1 {
+		font-size: 2.3em;
+	}
+}
+
+@media (min-width: 240px) and (max-width: 767px) {
+	.columns{ 
+		width: 96%;
+		margin: 2% 2% 0 2%;}
+	.title_region {
+		width: 100%;
+
+	}
+	h1 {
+		font-size: 2em;
+	}
+	
+}
+
+/* de la 240px */
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 250px) {
+  /* Header */
+#logo-img, h1{
+	width: 100%;
+	text-align: center;
+	font-size: 12vw;
+}
+.navbar .container {
+	width: 100%;
+	text-align: center;
+}
+.pull-left {
+	float: none !important;
+	text-align: center !important;
+}
+.navbar-default .navbar-toggle {
+	float: none !important;
+	margin: 0 auto 10px auto !important;
+}
+.navbar-default {
+	text-align: center;
+}
+
+  /* End Header */
+  
+ .title_region, h1 {
+	 width: 100%;
+	 font-size: 11vw;
+	 text-align: center;
+ }
+ .columns{ 
+		width: 96%;
+		margin: 2% 2% 0 2%;}
+}
